@@ -1,10 +1,11 @@
 import React from "react";
 // import './TermsAndConditions.css'
 const TermsAndConditions = () => {
+  const date = new Date().getFullYear();
   return (
     <section id="termsandcond">
       <header>
-        <p>CURRENT AS OF SEP 2023</p>
+        <p>CURRENT AS OF {date}</p>
         <h1>Terms & Conditions</h1>
       </header>
       <div className="content">
@@ -19,7 +20,7 @@ const TermsAndConditions = () => {
         </p>
         <ul>
           <li>
-           <h5> Acceptance of Terms:</h5>
+            <h5> Acceptance of Terms:</h5>
             <p>
               By using the Website, you acknowledge that you have read,
               understood, and agree to be bound by these Terms and any future
@@ -30,11 +31,9 @@ const TermsAndConditions = () => {
             </p>
           </li>
           <li>
-            <h5>
-            Use of the Website
-            </h5>
+            <h5>Use of the Website</h5>
             <ol>
-              <li> You must be at least [age] years old to use the Website.</li>
+              <li> You must be at least 18 years old to use the Website.</li>
               <li>
                 You agree to use the Website for lawful purposes and in
                 compliance with all applicable laws and regulations.
@@ -48,9 +47,7 @@ const TermsAndConditions = () => {
             </ol>
           </li>
           <li>
-            <h5>
-            Privacy Policy
-            </h5>
+            <h5>Privacy Policy</h5>
             <p>
               Your use of the Website is also governed by our Privacy Policy,
               which is incorporated by reference into these Terms.
@@ -76,7 +73,7 @@ const TermsAndConditions = () => {
           <li>
             <h5>Limitation of Liability</h5>
             <p>
-              To the fullest extent permitted by applicable law, [Your Company]
+              To the fullest extent permitted by applicable law, your Company
               shall not be liable for any indirect, incidental, special,
               consequential, or punitive damages, or any loss of profits or
               revenues, whether incurred directly or indirectly, or any loss of
@@ -95,7 +92,7 @@ const TermsAndConditions = () => {
               These Terms shall be governed by and construed in accordance with
               the laws of Jurisdiction. Contact Information If you have any
               questions about these Terms, please contact us at{" "}
-              <span>luxuryvilla@gmail.com</span>.
+              <span>aamirab1017@gmail.com</span>.
             </p>
           </li>
         </ul>
